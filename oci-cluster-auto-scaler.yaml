@@ -144,7 +144,7 @@ spec:
     spec:
       serviceAccountName: cluster-autoscaler
       containers:
-        - image: {{Docker Image}}
+        - image: sa-saopaulo-1.ocir.io/axoxdievda5j/oke-public-cluster-autoscaler@sha256:6b8282ba5d8341c574f458dec59ee80feabd1fdcc814f027d4706e23d5be0891
           name: cluster-autoscaler
           resources:
             limits:
